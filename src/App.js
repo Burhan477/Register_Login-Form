@@ -20,9 +20,9 @@ const App = () => {
       </Switch> */}
 
       <Home />
-      {
+      {/* {
           user && user._id ? <Home /> : <Login setLoginUser={setLoginUser}/>
-      }
+      } */}
       <Register />
       <Login setLoginUser={setLoginUser}/>
 
